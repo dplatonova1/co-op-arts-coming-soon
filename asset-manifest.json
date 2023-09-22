@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/co-op-arts-coming-soon/static/css/main.4a9838d4.css",
+    "main.js": "/co-op-arts-coming-soon/static/js/main.e660189c.js",
+    "static/media/sea.jpg": "/co-op-arts-coming-soon/static/media/sea.3c05ea5f214c3a4a54f2.jpg",
+    "static/media/leaf.jpg": "/co-op-arts-coming-soon/static/media/leaf.38341d457fc7a57c7074.jpg",
+    "static/media/tree.jpg": "/co-op-arts-coming-soon/static/media/tree.0f1081a3d337843dcd28.jpg",
+    "index.html": "/co-op-arts-coming-soon/index.html",
+    "main.4a9838d4.css.map": "/co-op-arts-coming-soon/static/css/main.4a9838d4.css.map",
+    "main.e660189c.js.map": "/co-op-arts-coming-soon/static/js/main.e660189c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a9838d4.css",
+    "static/js/main.e660189c.js"
+  ]
+}
