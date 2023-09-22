@@ -1,0 +1,123 @@
+.app {
+  background-color: #904cf0;
+  width: 100vw;
+  height: 100vh;
+  min-width: 768px;
+  max-width: 1920px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  color: #3d3d3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 1em;
+  width: 96%;
+  height: 96%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 1em;
+  text-transform: uppercase;
+}
+
+.box {
+  border-radius: 32px;
+  border: none;
+  background-color: #e8e9e4;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box--green {
+  background-color: #acf04c;
+}
+
+.title {
+  font-size: 7em;
+  line-height: 0.8;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.contacts {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacts__links {
+  align-self: flex-end;
+  text-align: right;
+  line-height: 0.9;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.contacts__link:hover {
+  transition: all ease-in-out 0.3s;
+  color: #904cf0;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.leaf {
+  grid-row-start: 5;
+  grid-row-end: -1;
+  background-image: url("../public/images/leaf.jpg");
+}
+
+.sea {
+  grid-row-start: 1;
+  grid-row-end: -1;
+  background-image: url("../public/images/sea.jpg");
+}
+
+.tree {
+  grid-row-start: 5;
+  grid-row-end: 8;
+  background-image: url("../public/images/tree.jpg");
+}
+
+.overcome {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  font-weight: 300;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 930px) {
+  .title {
+    font-size: 5em;
+  }
+  .overcome {
+    font-size: 2em;
+  }
+}
