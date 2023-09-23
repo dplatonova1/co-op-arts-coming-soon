@@ -2,7 +2,7 @@
   "name": "co-op-arts-coming-soon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dplatonova1.github.io/co-op-arts-coming-soon",
+  "homepage": "https://www.co-op-arts.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
